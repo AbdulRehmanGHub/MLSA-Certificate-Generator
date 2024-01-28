@@ -1,10 +1,9 @@
 # MLSA-Certificate-Generator
 
-This repo simply use a template certificate docx file and generates certificates in
+This repo simply uses a template certificate docx file and generates certificates in
 both docx and pdf.
 
-##  For Windows and Mac users.
-
+First of all, give a star to this repository.
 
 ## Run these commands in your terminal
 
@@ -15,50 +14,47 @@ cd MLSA-Certificate-Generator
 
 ## Customization and Generation
 
-### Step 1 : Adding list of participants
-
-<br>
-<img width="657" alt="Step1" src="https://github.com/abdulrehmanghub/MLSA-Certificate-Generator/assets/121181405/c20ac1ae-5c1b-4aec-9e32-0d8f432ba5af" >
+### Step 1: Adding a list of participants
+![ss_1](https://github.com/AbdulRehmanGHub/MLSA-Certificate-Generator/assets/105493274/9d997754-5fda-491a-affc-30e0ad73deb2)
 <br>
 
-- Now Copy the name of Participants of your event and paste their names in the file  `Event Participants.csv` present in the folder `Templates`.
+- Now Copy the name of the Participants of your event and paste their names in the file  `Event Participants.csv` present in the folder `Templates`.
 - Save the changes
-- No additional field required only name of participants can work.
+- No additional field is required only the names of participants can work.
   
 
-### Step 2 : Modifying your event details
-
+### Step 2: Modifying your event details
+![ss_2](https://github.com/AbdulRehmanGHub/MLSA-Certificate-Generator/assets/105493274/b6e9cdec-0a5e-4791-bf18-30c8dc02326b)
 <br>
-<img width="1150" alt="Step 2" src="https://github.com/abdulrehmanghub/MLSA-Certificate-Generator/assets/121181405/b9450e4e-5c3c-4e14-87f0-873d6fc34329">
-
 
 - Open the file `main_certificate.py`
-- Move to line 53 and Write name of the "Host" instead of "Your Name"
+- Move to line 53 and Write the name of the "Host" instead of "Your Name"
 - Move to line 56 and Write "Event name" instead of "Your Event Name"
 - Save the changes.
 
-### Step 3 : Open Terminal
+### Step 3: Open Terminal
 
-### ```For Mac Users```
-
-```
-pip3 install -r requirements.txt
-python3 main_certificate.py
-```
-
-### ```For Windows Users```
+### ``` For Windows Users```
 
 ```
 pip install -r requirements.txt
 python main_certificate.py
 ```
 
-### Step 4 : Certificates
+<br>
 
-- Look for Output Folder in "MLSA-Certificate-Generator" folder in your pc
+### ``` For Mac Users```
+
+```
+pip3 install -r requirements.txt
+python3 main_certificate.py
+```
+
+### Step 4: Certificates
+
+- Look for the Output Folder in the "MLSA-Certificate-Generator" folder on your pc
 - There you find 2 separate folders namely "Doc" and "PDF" with your certificates ready
-- Extract the certificates and share with your participants
+- Extract the certificates and share them with your participants
 
 
 ## Well Done!!! You Did It.
-## Thank You
