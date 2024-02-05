@@ -56,5 +56,9 @@ python3 main_certificate.py
 - There you find 2 separate folders namely "Doc" and "PDF" with your certificates ready
 - Extract the certificates and share them with your participants
 
+### Certificate Template
+![cert template](https://github.com/AbdulRehmanGHub/MLSA-Certificate-Generator/assets/105493274/eb497bc1-880b-4c33-aee4-bd5e660805b8)
+
+
 
 ## Well Done!!! You Did It.
